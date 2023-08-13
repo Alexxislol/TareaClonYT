@@ -1,0 +1,194 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(215, 213, 213);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    /* Agrega aquí otros estilos necesarios para el div */
+}
+
+.imagenYT{
+    width: 100px;
+    padding-left: 70px;
+}
+
+.imagenBarraMenu{
+    position: absolute;
+    width: 30px;
+    left: 5px;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.search-button{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 900px;
+    top: 20px;
+}
+
+.imagenlupa{
+    width: 15px;
+    height: 15px;
+    align-items: center;
+
+}
+
+.search-input{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    height: 30px;
+    width: 393px;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 500px; /* Proporción de aspecto 16:9 */
+    height: 40px;
+    width: 800px;
+}
+
+.divTituloVideo{
+    position: relative;
+    height: 20px;
+    bottom: 0px;
+}
+
+.contenedorVideos{
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    border: 2px solid #3e3e3eb1;
+    background-color: #ffffff;
+    left: 1000px;
+    top: 120px;
+}
+
+.divCurso5{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.divnombrevid{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.imagenX{
+    position: absolute;
+    left: 370px;
+    top: 40px;
+}
+
+.imagenVideo1{
+    position: absolute;
+    top: 120px;
+    left: 13px;
+}
+
+.imagenVideo2{
+    position: absolute;
+    top: 200px;
+    left: 13px;
+}
+
+.imagenVideo3{
+    position: absolute;
+    top: 280px;
+    left: 13px;
+}
+
+.imagenVideo4{
+    position: absolute;
+    top: 360px;
+    left: 13px;
+}
+
+.divNomVid1{
+    position: absolute;
+    left: 150px;
+    top: 130px;
+}
+
+.divNomVid2{
+    position: absolute;
+    left: 150px;
+    top: 210px;
+}
+
+.divNomVid3{
+    position: absolute;
+    left: 150px;
+    top: 290px;
+}
+
+.divNomVid4{
+    position: absolute;
+    left: 150px;
+    top: 370px;
+}
+
+.logopersona{
+    position: absolute;
+    left: 1420px;
+    top: 20px;
+}
+
+.logocampana{
+    position: absolute;
+    left: 1350px;
+    top: 20px;
+}
+
+.logomenu{
+    position: absolute;
+    left: 1280px;
+    top: 20px;
+}
+
+.logovideo{
+    position: absolute;
+    left: 1200px;
+    top: 20px;
+}
+
+.logomicro{
+    position: absolute;
+    left: 950px;
+    top: 22px;
+}
+
